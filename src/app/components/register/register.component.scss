@@ -1,0 +1,42 @@
+.login{
+    min-height: 100vh;
+    background: white;
+    .left{
+        width: 60%;
+        min-height: 100vh;
+        height: 100%;
+        background: #D5DFE6;
+        img{
+            height: 27vw;
+        }
+    }
+    .right{
+        width: 100%;
+        min-height: 100vh;
+        .right-main{
+            width: 70%;
+            margin: auto;
+            .forgot-password{
+                opacity: .7;
+                font-size: .8rem;
+                cursor: pointer;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+        .rights{
+            font-size: .8rem;
+            opacity: .5;
+        }
+    }
+}
+
+//768px and up 
+@media (min-width: 768px) {
+    .login{
+        .right{
+            width: 40%;
+        }
+    }
+ }
